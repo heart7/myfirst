@@ -1,0 +1,25 @@
+.card{
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    text-align: center;
+    height: 50vh;
+    padding: 25px;
+    border: 1.5px solid  rgb(210, 247, 250);
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(83, 83, 83);
+    background-color: rgb(238, 238, 238);
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.2s ease-out;  
+}
+.card:hover{
+    border: 4px solid  rgb(210, 247, 250);
+    background-image: linear-gradient(rgb(0, 43, 44), rgb(1, 26, 27));
+    color: rgb(231, 245, 247);
+    transform: scale(1.05);
+    
+
+}

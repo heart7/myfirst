@@ -1,12 +1,13 @@
 import  React  from 'react';
-import { MonsterShow } from './components/monstershow.component';
+import Apicall from './component/apicall/apicall_component';
+import '../src/index.css';
 
 
 
 function App() {
   return (
     <div >
-     <MonsterShow />
+     <Apicall/>
     </div>
    
   );

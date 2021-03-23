@@ -1,0 +1,8 @@
+.showcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 35px;
+    margin: 0  auto  0   auto;
+    width: 80vw;
+    
+}

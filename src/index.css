@@ -1,12 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background : linear-gradient( 
-        to left,
-     rgba(231, 238, 252) 50%,
-     rgba(#4ceaf0) 100% );
-
+    background-image: linear-gradient(to right, #fcfcfc , #f9ffff);
+   
 }
 
 h1{
