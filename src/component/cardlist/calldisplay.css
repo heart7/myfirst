@@ -1,8 +1,11 @@
 .showcard{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 35px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 50px;
     margin: 0  auto  0   auto;
     width: 80vw;
-    
+    margin-bottom: 70px;
 }

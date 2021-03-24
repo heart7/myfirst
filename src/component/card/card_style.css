@@ -2,10 +2,12 @@
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     flex-direction: column;
+    -ms-flex-item-align: center;
     font-size: small;
     text-align: center;
-    height: 50vh;
-    padding: 25px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
     border: 1.5px solid  rgb(210, 247, 250);
     border-radius: 6px;
     cursor: pointer;
